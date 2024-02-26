@@ -29,9 +29,9 @@
 
 
 
-let arr = prompt("Which name should I remove?").toLocaleLowerCase().trim()
+let arr = prompt("Which name should I remove?").toLowerCase().trim()
 
-let arrOne = ['muhammadali', 'javoxir', 'munir' , 'jago', 'Jahonbek', 'shohruh'];
+let arrOne = ['muhammadali', 'javoxir', 'munir' , 'jago', 'jahonbek', 'shohruh'];
 
 
 let index = arrOne.indexOf(arr)
